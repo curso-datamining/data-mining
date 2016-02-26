@@ -3,8 +3,9 @@ Curso de Data Mining con Oracle 12c
 
 ##Entregable No.1
 Instalación de Oracle 12c y de SQL Developer 4.1.x. Para ello sólo deberás de proporcionar las impresiones de pantalla de cada uno de los pasos de la instalación en un documento  de texto.
-
+![Primer entregable](http://shotcretemexico.com/cursos/base-datos/entregable2.png)
 ##Entregable No. 2
+
 ###Introducción
 El objetivo de la minería de datos es analizar los datos acumulados a lo largo de varios añosde operación de las empresas. Esto es, hacer análisis de los datos a un nivel **estratégico** y a un nivel **operativo**.
 Para ello es necesario primeramente preparar los datos para ese análisis (Datawarehousing), ya que las bases de datos normalizadas son bastante difíciles de manejar, sobre todo cuando se trata de hacer análisis estádisticos tanto inferenciales, como de tipo pronóstico (tendencias a futuro de la información de los datos.
