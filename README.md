@@ -11,11 +11,11 @@ El objetivo de la minería de datos es analizar los datos acumulados a lo largo 
 Para ello es necesario primeramente preparar los datos para ese análisis (Datawarehousing), ya que las bases de datos normalizadas son bastante difíciles de manejar, sobre todo cuando se trata de hacer análisis estádisticos tanto inferenciales, como de tipo pronóstico (tendencias a futuro de la información de los datos.
 Recuerda que la normalización es un proceso que debe de llevarse a cabo en la creacion de una base  de datos a un nivel **operativo** para garantizar la **integridad de datos**. Sin embargo al tratar de  analizar grandes cantidades de datos resulta muy ineficiente tener los datos en este tipo de formato, ya que el uso de **joins** para manejar multiples datos se hace casi imposible o muy difícil.
 Para resolver ese conflicto y poder hacer un análisis de datos (minería de datos) con las técnicas que veremos en este curso,  es necesario hacer un rediseño de la base de datos o **desnormalización**. A este proceso se le conoce como elaboración de una **tabla de hechos**.  Que involucra los siguientes elementos básicos.
-1. Identificación de los hechos
-2. Indentificación de las dimensiones
-3. Identificación de Jerarquías
-4. Identificación de niveles
-5. Identificación de atributos
+* Identificación de los hechos
+* Indentificación de las dimensiones
+* Identificación de Jerarquías
+* Identificación de niveles
+* Identificación de atributos
 ![Definicio de hechos](http://shotcretemexico.com/cursos/base-datos/definicion_hechos.png)
 
 
