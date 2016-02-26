@@ -19,9 +19,9 @@ Para resolver ese conflicto y poder hacer un análisis de datos (minería de dat
 
 ###Caso de uso: Hechos ventas
 En la siguiente imágen se puede observar de dónde surge el concepto de lo que se conoce como un **HECHO**
-[Evento de hechos  ventas](http://shotcretemexico.com/cursos/base-datos/tabla_hechos_ventas.png)
+![Evento de hechos  ventas](http://shotcretemexico.com/cursos/base-datos/tabla_hechos_ventas.png)
 
 ###Actividad a entregar en archivo **sql**
 Crear todas las tablas correspondientes al Hecho **ventas** a partir del diagrama siguiente
-[Segundo entregable](http://shotcretemexico.com/cursos/base-datos/entregable2.png)
+![Segundo entregable](http://shotcretemexico.com/cursos/base-datos/entregable2.png)
 
