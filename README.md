@@ -16,6 +16,9 @@ Para resolver ese conflicto y poder hacer un análisis de datos (minería de dat
 * Identificación de Jerarquías
 * Identificación de niveles
 * Identificación de atributos
+
+
+
 ![Definicio de hechos](http://shotcretemexico.com/cursos/base-datos/definicion_hechos.png)
 
 
