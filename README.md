@@ -13,10 +13,11 @@ Recuerda que la normalización es un proceso que debe de llevarse a cabo en la c
 Para resolver ese conflicto y poder hacer un análisis de datos (minería de datos) con las técnicas que veremos en este curso,  es necesario hacer un rediseño de la base de datos o **desnormalización**. A este proceso se le conoce como elaboración de una **tabla de hechos**.  Que involucra los siguientes elementos básicos.
 1. Identificación de los hechos
 2. Indentificación de las dimensiones
-   A partir de las últimas
 3. Identificación de Jerarquías
 4. Identificación de niveles
 5. Identificación de atributos
+![Definicio de hechos](http://shotcretemexico.com/cursos/base-datos/definicion_hechos.png)
+
 
 ###Caso de uso: Hechos ventas
 En la siguiente imágen se puede observar de dónde surge el concepto de lo que se conoce como un **HECHO**
