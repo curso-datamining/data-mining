@@ -4,7 +4,7 @@ Curso de Data Mining con Oracle 12c
 ##Entregable No.1
 Instalación de Oracle 12c y de SQL Developer 4.1.x. Para ello sólo deberás de proporcionar las impresiones de pantalla de cada uno de los pasos de la instalación en un documento  de texto.
 ![Primer entregable](http://shotcretemexico.com/cursos/base-datos/entregable1.png)
-##Entregable No. 2
+##Entregable No. 2 y 3
 
 ###Introducción
 El objetivo de la minería de datos es analizar los datos acumulados a lo largo de varios añosde operación de las empresas y buscar **relaciones y tendencias previamente desconocidas**. Esto es, hacer análisis de los datos a un nivel **táctico** y a un nivel **estrategico**.
@@ -31,4 +31,15 @@ En la siguiente imágen se puede observar de dónde surge el concepto de lo que 
 ###Actividad a entregar en archivo **sql**
 Crear todas las tablas correspondientes al Hecho **ventas** a partir del diagrama siguiente
 ![Segundo entregable](http://shotcretemexico.com/cursos/base-datos/entregable2.png)
+
+##Entregable No. 4
+###Intoducción
+En este entregable vas a crear el usuario de  **Data Mining** a travéz del usuario de administración  **sys** y con la base de datos de conexion **pdborcl** que se generó automáticamente cuando instalaste oracle.
+1. Conectarse como administrador **sys** con el privilegio de **sysdba* y con el servicio de conexión **pdborcl**.
+2. Activar la base de datos de conexion con la linea ```sql ALTER PLUGGABLE DATABASE OPEN FORCE;```
+3. Una vez establecida la conexión crear al usuario **dmuser**. Es sumamente importante que le des ese nombre y como password igual usa **dmuser**, dale espacio de tablas **users** y en el temporal **tmp**,  otorgale el privilegio **connect**  y en cuotas **USERS**.
+4. Genera una conexión para **dmuser** usando la base de datos de conexion **pdborcl*
+5. Activar la opción de **Data Miner** y establecer una conexión con el recién creado **dmuser**. Autorizar que se instale las base de datos de muestra. Crear un nuevo Proyecto que se llame **Introduccion al análiis** generar un flujo de trabajo que se llame **Aseguradora parte 1**
+6. Agregar un neuvo origen de datos y verificar que este disponible el esquema de la aseguradora, el esquema de los carros y e esquema de datos en JSON.
+6. 
 
