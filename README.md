@@ -38,7 +38,7 @@ En este entregable vas a crear el usuario de  **Data Mining** a travéz del usua
 ### Desarrollo
 Realiza las siguiente tareas, imprime las pantallas y agrégalas a un documento de word que se llame **Entregable 4**.
 
-* 1. Conectarse como administrador **sys** con el privilegio de **sysdba* y con el servicio de conexión **pdborcl**.
+* 1. Conectarse como administrador **sys** con el privilegio de **sysdba** y con el servicio de conexión **pdborcl**.
 * 2. Activar la base de datos de conexion con la linea ```sql ALTER PLUGGABLE DATABASE OPEN FORCE;```
 * 3. Una vez establecida la conexión crear al usuario **dmuser**. Es sumamente importante que le des ese nombre y como password igual usa **dmuser**, dale espacio de tablas **users** y en el temporal **tmp**,  otorgale el privilegio **connect**  y en cuotas **USERS**.
 * 4. Genera una conexión para **dmuser** usando la base de datos de conexion **pdborcl*
