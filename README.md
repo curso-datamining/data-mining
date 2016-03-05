@@ -35,9 +35,9 @@ Crear todas las tablas correspondientes al Hecho **ventas** a partir del diagram
 ##Entregable No. 4
 ###Intoducción
 En este entregable vas a crear el usuario de  **Data Mining** a travéz del usuario de administración  **sys** y con la base de datos de conexion **pdborcl** que se generó automáticamente cuando instalaste oracle.
-1. Conectarse como administrador **sys** con el privilegio de **sysdba* y con el servicio de conexión **pdborcl**.
-2. Activar la base de datos de conexion con la linea ```sql ALTER PLUGGABLE DATABASE OPEN FORCE;```
-3. Una vez establecida la conexión crear al usuario **dmuser**. Es sumamente importante que le des ese nombre y como password igual usa **dmuser**, dale espacio de tablas **users** y en el temporal **tmp**,  otorgale el privilegio **connect**  y en cuotas **USERS**.
+...1. Conectarse como administrador **sys** con el privilegio de **sysdba* y con el servicio de conexión **pdborcl**.
+...2. Activar la base de datos de conexion con la linea ```sql ALTER PLUGGABLE DATABASE OPEN FORCE;```
+...3. Una vez establecida la conexión crear al usuario **dmuser**. Es sumamente importante que le des ese nombre y como password igual usa **dmuser**, dale espacio de tablas **users** y en el temporal **tmp**,  otorgale el privilegio **connect**  y en cuotas **USERS**.
 4. Genera una conexión para **dmuser** usando la base de datos de conexion **pdborcl*
 5. Activar la opción de **Data Miner** y establecer una conexión con el recién creado **dmuser**. Autorizar que se instale las base de datos de muestra. Crear un nuevo Proyecto que se llame **Introduccion al análiis** generar un flujo de trabajo que se llame **Aseguradora parte 1**
 6. Agregar un neuvo origen de datos y verificar que este disponible el esquema de la aseguradora, el esquema de los carros y e esquema de datos en JSON.
