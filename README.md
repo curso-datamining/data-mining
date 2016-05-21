@@ -7,9 +7,9 @@ Instalación de Oracle 12c y de SQL Developer 4.1.x. Para ello sólo deberás de
 
 ## Entregable No.2
 Introducción a la creación de tablas en Oracle, aplicando normalización, introducción a PL SQL aplicado a Data Mining y Data Warehousing.
+
 En este entregable vas a crear la base de datos proporcionada por el profesor, vas a utilizar bloque PL SQL para generar los procedimientos almacenados necesarios para guardar los registros del siguiente entregable.
 
-En este entregable vas a 
 ##Entregable No. 3
 
 ###Introducción
